@@ -1,5 +1,7 @@
-def square_array(array)
-    array.each do |i|
-      i ** 2
-    end
-end
+def square_array(numbers)
+  count = 0
+  while count < numbers.length do
+    numbers.index ** 2 
+  end
+  square_array(numbers)
+end 
