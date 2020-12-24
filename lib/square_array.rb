@@ -3,3 +3,4 @@ def square_array(array)
   while count < array.length do
     maths.exp
 end
+end
